@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.mainbar{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+padding: 12px;
+background: rgb(247, 248, 251);
+}
+
+.info ul{
+display: flex;
+list-style-type: none;
+
+}
+
+
+.logo{
+
+    align-items: center;
+    width: 195px;
+    font-size: 19px;
+}
+.logo h1{
+  
+    font-family:system-ui;
+    text-decoration: underline;
+} 
+.info{
+    font-family: sans-serif;
+    margin: 0 0 0 100px;
+}
+.info button{
+
+    font-family: cursive;
+    border-radius: 35px;
+    padding: 16px;
+    font-size: 21px;
+    cursor: pointer;
+    background: #4e7d8e;
+    color: azure;
+        }
+
+.info button:hover{  
+   background-color:white; 
+    color: black;
+ }
+.info a{
+    
+    padding: 18px;
+    font-size: 23px;
+    cursor: pointer;
+    color: black;
+}
+.info a:hover{
+ 
+    text-decoration:underline;
+}
+.inner{
+    display: flex;
+}
+.img-box-1{
+    background-image: url(images/air.jpg);
+    height: 429px;
+    width: 263rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.i1{
+    display: flex;
+}
+.i11{
+    margin: auto;
+ 
+    display: grid;
+ 
+    margin: 3rem;
+    padding: 1rem;
+    box-shadow: 4px 4px 25px #ccc;
+    border: 1px solid #e5e5e5;
+}
+
+.i1{
+    font-size: 3vw;
+}
+.i11{
+    font-size: 20px;
+    background: rgb(247, 248, 251);
+}
+.i11 p a{
+    color: black;
+    border: 2px solid;
+    border-radius: 31px;
+    padding: 5px 14px;
+    font-size: 17px;
+    background: darkorange;
+}
+
+#a{
+    background-image: url(images/water.jpg);
+}
+#b{
+    background-image: url(images/noise\ pollution.jpg);
+}
+#d{
+    background-image: url(images/s.jpg);
+}
+.log1{
+    background: cornsilk;
+}
+.log2{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin: 54px 0 36px;
+    padding: 40px 119px 30px 90px;
+    gap: 1rem;
+}
+.log2 h1{    font-size: 41px;
+    margin: 0 0 29px;
+    text-decoration: underline;
+
+}
+.log2 input{    padding: 9px;
+  
+    font-size: 24px;
+    font-family: math;
+    color: #4e7d8e;
+
+}
+
+.log2 button {
+    padding: 3px;
+    margin: 2px;
+    font-size: 24px;
+    font-family: math;
+    background: #4e7d8e;
+    color: white;
+    cursor: pointer
+}
+.log2 button:hover{
+    background-color: white;
+    color: black;
+}
+.log3{
+display: flex;
+justify-content: space-around;
+margin: 1px;
+font-size: 19px;
+padding: 0 0 52px;
+}
+
+ .f2 a{
+    padding: 15px;
+    color: #4e7d8e;
+    cursor: pointer;
+}
+ .formar .bar{
+    width: 35px; 
+    height: 5px;
+    background-color: black;
+    margin: 8px ;
+display: none;}

@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.mainbar{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 0 0 0 143px;
+padding: 20px;
+}
+
+.info ul{
+display: flex;
+list-style-type: none;
+
+}
+
+
+.logo{
+
+    align-items: center;
+    width: 195px;
+    font-size: 19px;
+}
+.logo h1{
+  
+    font-family:system-ui;
+    text-decoration: underline;
+} 
+.info{
+    font-family: sans-serif;
+    margin: 0 0 0 100px;
+}
+.info button{
+
+    font-family: cursive;
+    border-radius: 35px;
+    padding: 16px;
+    font-size: 21px;
+    cursor: pointer;
+    background: #4e7d8e;
+    color: azure;
+        }
+
+.info button:hover{  
+   background-color:white; 
+    color: black;
+ }
+.info a{
+    
+    padding: 18px;
+    font-size: 23px;
+    cursor: pointer;
+    color: black;
+}
+.info a:hover{
+ 
+    text-decoration:underline;
+}
+.whole{
+    background-image: url(images/h.jpg);
+
+
+
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+
+}
+   
+ 
+
+
+
+.box1{
+    width: 100%;
+    position: inherit;
+    
+    text-align: center;
+}
+.box2{
+    text-align: center;
+}
+.box1 h1{
+    font-size: 63px;
+font-family: system-ui;
+padding: 0 0 20px;
+color: #100e0c;
+}
+.box1 p{
+font-size: 29px;
+padding: 0 0 29px;
+font-family: cursive;
+}
+ .c1{
+    padding:95px;
+ }  
+.box2  a{
+    padding: 13px;
+    font-size: 21px; 
+    border-radius: 69px;
+    cursor: pointer;
+    font-family: cursive;
+    background: #4e7d8e;
+    color: azure;
+}
+.box2 a:hover {
+    background-color:white; /* Green */
+    color: black;
+  }
+
+.img-box-1{
+ 
+    background-image: url(images/air.jpg);
+    height: 14rem;
+    width: 18rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    padding: 22px;
+    box-shadow: 0 6px 9px 2px #080807e0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+
+}
+.lower_container
+{
+    display: grid;
+}
+.img-box-1:hover {
+    box-shadow: 13px 12px 18px 7px #020108;
+}
+.lower_container h1{
+  text-align: center;
+  color: #4e7d8e;
+  margin: 97px 0 20px 0;
+  font-size: 45px;
+  font-family: system-ui;
+}
+.lower_container p{
+    text-align: center;
+    font-size: 24px;
+    font-family: monospace;
+    margin: 12px 0 44px 15px;
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    gap: 2rem;
+}
+#w{background-image: url(images/water.jpg);}
+#n{background-image: url(images/noice.jpg);}
+#s{background-image: url(images/soil.jpg);}
+.frame2{
+    display: flex;
+    margin: 133px;
+  
+    padding: 20PX 0 36PX;
+}
+.frame1{
+    background: rgb(247, 248, 251);
+}
+.photo{
+    background-image: url(images/g.png);
+    height: 387px;
+    width: 1874px;
+    background-position: center;
+    background-size: cover;
+   
+}
+.know{
+    text-align: center;
+    font-family: cursive;
+    margin: 30px 34px 0 36px;
+}
+.know h1{
+    font-size: 41px;
+    margin: 0 0 21px;
+}
+.know p{
+    font-size: 17px;
+}
+.log1{
+    background: cornsilk;
+}
+.log2{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin: 54px 0 36px;
+    padding: 40px 119px 30px 90px;
+    gap: 1rem;
+}
+.log2 h1{    font-size: 41px;
+    margin: 0 0 29px;
+    text-decoration: underline;
+
+}
+.log2 input{    padding: 9px;
+  
+    font-size: 24px;
+    font-family: math;
+    color: #4e7d8e;
+
+}
+
+.log2 button {
+    padding: 3px;
+    margin: 2px;
+    font-size: 24px;
+    font-family: math;
+    background: #4e7d8e;
+    color: white;
+    cursor: pointer
+}
+.log2 button:hover{
+    background-color: white;
+    color: black;
+}
+.log3{
+display: flex;
+justify-content: space-around;
+margin: 1px;
+font-size: 19px;
+padding: 0 0 52px;
+}
+
+ .f2 a{
+    padding: 15px;
+    color: #4e7d8e;
+    cursor: pointer;
+}
+ .formar .bar{
+    width: 35px; 
+    height: 5px;
+    background-color: black;
+    margin: 8px ;
+display: none;}
+ 
+@media screen and (max-width : 1134px){
+.photo {
+    height: 262px;
+    margin: 94px 22px 0 0;
+}
+}
+@media screen and (max-width : 924px){
+.photo{
+    display: none;
+
+}
+}
+@media screen and (max-width : 870px){
+    .info{
+        display: none;
+    }
+
+    .formar .bar{  width: 35px; 
+        height: 5px;
+        background-color: black;
+        margin: 6px }
+    .logo{
+            margin: 0 0 0 -142px;     
+        }
+    .img-box-1{
+height: 145px;
+    }
+    }
+
+    @media screen and (max-width : 746px){
+    .frame2{
+    margin: 45px 0 0 0;
+    }
+}
